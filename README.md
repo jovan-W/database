@@ -1,1 +1,1 @@
-# database
+simple cafe database
