@@ -147,6 +147,7 @@ VALUES
 (7, 'd0001', 2, CURRENT_TIMESTAMP),
 (6, 'f0001', 1, CURRENT_TIMESTAMP),
 (5, 'f0001', 2, CURRENT_TIMESTAMP);
+
 INSERT INTO payment(order_id, customer_id, staff_id, price, payment_date)
 VALUES
 (1, 1, 1, (SELECT price FROM product WHERE product_id = 'f0001'), CURRENT_TIMESTAMP),
