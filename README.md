@@ -1,1 +1,1 @@
-simple cafe database
+simple cakeshop database and dashboard.
